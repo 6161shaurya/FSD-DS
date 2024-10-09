@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
+.grid-items{
+    border: 3px solid yellow;
+}
+.navbar,.Image,.footer,.copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+li a{
+    display: block;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+}
+li{
+    float: left;
+}
+.about{
+    height: 200;
+}
